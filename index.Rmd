@@ -56,10 +56,10 @@ xfun::pkg_load2(c('base64enc', 'htmltools', 'mime'))
 ]
 
 .affiliation[
-### Centro de Investigación y Docencia Económicas <br> División de Economía  <br>  <br> Actualización: `r Sys.Date()`
+### Centro de Investigación y Docencia Económicas <br> División de Economía
 ]
 
-_La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a desafíos globales"_
+_La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a desafíos globales_
 
 ---
 
@@ -75,6 +75,9 @@ _La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a d
 
 - Necesitamos buenas teorías que nos ayuden a establecer relaciones causales
 
+- Nuestro trabajo debe estar tan planeado que antes de salir a campo ya debemos saber qué haremos con los datos
+
+- Debemos apegarnos a los estándares de replicabilidad y transparencia
 
 
 ---
@@ -90,11 +93,12 @@ _La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a d
 
 - Los equipos deben consensuar qué información es prioritaria, cuál es secundaria y cuál es prescindible
 
--
 
 ---
 
 # Metodologías complementarias
+
+
 
 ---
 
