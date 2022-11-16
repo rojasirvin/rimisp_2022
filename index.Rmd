@@ -1,13 +1,12 @@
 ---
-title: "Medir en contextos complejos"
-subtitle: "Avances y desafíos metodológicos"
+title: "Medición de impactos de politicas públicas"
 author: |
   | Irvin Rojas
 institute: "CIDE"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    css: [default, default-fonts, "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css", "https://use.fontawesome.com/releases/v5.7.2/css/all.css", "https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"]
+    css: [default, default-fonts, "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css", "https://use.fontawesome.com/releases/v6.2.1/css/all.css", "https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"]
     seal: false
     lib_dir: libs
     nature:
@@ -29,9 +28,6 @@ library(sandwich)
 library(estimatr) # regresión con errores robustos y agrupados
 library(modelsummary) # para hacer tablas
 library(ri2) # inferencia por aleatorización
-
-
-xfun::pkg_load2(c('base64enc', 'htmltools', 'mime'))
 ```
 
 ```{css, echo = FALSE}
@@ -44,27 +40,89 @@ xfun::pkg_load2(c('base64enc', 'htmltools', 'mime'))
 ```
 
 .title[
-# Medir en contextos complejos
+# Medición de impactos de politicas públicas
 ]
-.subtitle[
-### Avances y desafíos metodológicos
-]
+
 <br/>
+
+<br/>
+
 
 .author[
 ### Irvin Rojas <br> [rojasirvin.com](https://www.rojasirvin.com/) <br> [<i class="fab fa-github"></i>](https://github.com/rojasirvin) [<i class="fab fa-twitter"></i>](https://twitter.com/RojasIrvin) [<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=FUwdSTMAAAAJ&hl=en)
 ]
 
 .affiliation[
-### Centro de Investigación y Docencia Económicas <br> División de Economía
+#### Centro de Investigación y Docencia Económicas <br> División de Economía
 ]
 
-_La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a desafíos globales_
+<br/>
+
+<br/>
+
+_Medir en contextos complejos. Avances y desafíos metodológicos_
 
 ---
 
 # Nuestra experiencia
 
+
+- *Siembra desarrollo*
+
+- Puebla y Tabasco en México (estados muy particulares)
+
+- Primera parte:
+
+  - Los efectos de la pandemia en la seguridad alimentaria
+
+
+
+```{r out.height='10%'}
+knitr::include_graphics("mapa.png")
+``` 
+
+
+---
+
+# Nuestra experiencia
+
+
+```{r out.height='10%'}
+knitr::include_graphics("sa.png")
+``` 
+
+---
+
+# Nuestra experiencia
+
+.center[
+```{r out.width='500px'}
+knitr::include_graphics("unnamed-chunk-3-1.png")
+``` 
+
+]
+
+---
+
+# ¿Qué aprendimos y qué estamos haciendo?
+
+- Entendimos que el contexto ha cambiado
+
+- Planteamos dos hipótesis de trabajo diractamente falseables
+
+  - Sobre las dinámicas de consumo y producción
+  - Sobre el papel de las políticas, programas y mecanismos de ayuda
+  
+- Coordinamos equipos de trabajo para diseñar instrumentos
+
+  - Encuestas
+  - Grupos focales
+  - Historias de vida
+  
+- Planeamos análisis cuantitativos y cualitativos
+  
+  - Enfoque de investigación
+  - Enfoque de incidencia
 
 
 ---
@@ -77,7 +135,7 @@ _La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a d
 
 - Nuestro trabajo debe estar tan planeado que antes de salir a campo ya debemos saber qué haremos con los datos
 
-- Debemos apegarnos a los estándares de replicabilidad y transparencia
+- La revolución de la credibilidad en la economía nos enseña que es mejor dar pequeños pasos, pero creíbles, en nuestro entendimiento de los fenómenos
 
 
 ---
@@ -94,11 +152,38 @@ _La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a d
 - Los equipos deben consensuar qué información es prioritaria, cuál es secundaria y cuál es prescindible
 
 
+- Debemos contar con procedimientos de control de calidad de los datos durante el levantamiento
+
+- Debemos apegarnos a los estándares de replicabilidad y transparencia
+
+
 ---
 
-# Metodologías complementarias
+# Análisis
 
+.pull-left[
 
+- Formar equipos con habilidades complementarias
+
+- Técnicas sofisticadas no sustituyen buenas preguntas ni un buen diseño
+
+- Usemos las técnicas que necesitamos
+
+- Análisis complementarios
+
+  - Modelos estructurales
+  
+  - Modelos de impactos en economías locales
+
+- No perder de vista el objetivo de incidencia
+
+]
+
+.pull-right[
+```{r out.height='10%'}
+knitr::include_graphics("LEWIE_simulation.png")
+``` 
+]
 
 ---
 
@@ -107,7 +192,12 @@ class: center, middle, inverse
 # ¡Gracias!
 
 .author[
-### [rojasirvin.com](https://www.rojasirvin.com/) <br> [<i class="fab fa-github"></i>](https://github.com/rojasirvin) [<i class="fab fa-twitter"></i>](https://twitter.com/RojasIrvin) [<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=FUwdSTMAAAAJ&hl=en)
+### [rojasirvin.com](https://www.rojasirvin.com/)
+
+### [irvin.rojas@cide.edu](mailto:irvin.rojas@cide.edu)
+
+### <i class="fab fa-twitter"></i> [@rojasirvin](https://twitter.com/RojasIrvin)
+
 ]
 
 
