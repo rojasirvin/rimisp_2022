@@ -1,0 +1,109 @@
+---
+title: "Medir en contextos complejos"
+subtitle: "Avances y desafíos metodológicos"
+author: |
+  | Irvin Rojas
+institute: "CIDE"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [default, default-fonts, "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap-grid.min.css", "https://use.fontawesome.com/releases/v5.7.2/css/all.css", "https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"]
+    seal: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: title-slide, inverse, center, middle
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = F,
+                      message = F,
+                      fig.path = "figures/")
+
+library(tidyverse)
+library(sandwich)
+library(estimatr) # regresión con errores robustos y agrupados
+library(modelsummary) # para hacer tablas
+library(ri2) # inferencia por aleatorización
+
+
+xfun::pkg_load2(c('base64enc', 'htmltools', 'mime'))
+```
+
+```{css, echo = FALSE}
+.huge .remark-code { /*Change made here*/
+  font-size: 200% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 60% !important;
+}
+```
+
+.title[
+# Medir en contextos complejos
+]
+.subtitle[
+### Avances y desafíos metodológicos
+]
+<br/>
+
+.author[
+### Irvin Rojas <br> [rojasirvin.com](https://www.rojasirvin.com/) <br> [<i class="fab fa-github"></i>](https://github.com/rojasirvin) [<i class="fab fa-twitter"></i>](https://twitter.com/RojasIrvin) [<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=FUwdSTMAAAAJ&hl=en)
+]
+
+.affiliation[
+### Centro de Investigación y Docencia Económicas <br> División de Economía  <br>  <br> Actualización: `r Sys.Date()`
+]
+
+_La ruralidad latinoamericana en un mundo incierto: respuestas territoriales a desafíos globales"_
+
+---
+
+# Nuestra experiencia
+
+
+
+---
+
+# Teorías causales
+
+- Una de las razones por las que es complicado *medir* es porque no tenemos claro qué queremos medir
+
+- Necesitamos buenas teorías que nos ayuden a establecer relaciones causales
+
+
+
+---
+
+# Diseño de los instrumentos
+
+- Nuestros instrumentos deben de estar enfocados en medir exactamente lo que nos servirá para probar nuestras hipótesis
+
+- Diversas consideraciones afectan el diseño de instrumentos:
+
+  - Costo
+  - Duración
+
+- Los equipos deben consensuar qué información es prioritaria, cuál es secundaria y cuál es prescindible
+
+-
+
+---
+
+# Metodologías complementarias
+
+---
+
+class: center, middle, inverse
+
+# ¡Gracias!
+
+.author[
+### [rojasirvin.com](https://www.rojasirvin.com/) <br> [<i class="fab fa-github"></i>](https://github.com/rojasirvin) [<i class="fab fa-twitter"></i>](https://twitter.com/RojasIrvin) [<i class="ai ai-google-scholar"></i>](https://scholar.google.com/citations?user=FUwdSTMAAAAJ&hl=en)
+]
+
+
